@@ -38,7 +38,10 @@ html, body {
 @media screen and (min-width: 690px) {
   .index-div {
     width: 50%;
-    height: auto; 
+    height: auto;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border-radius: 10px;
   }
   body {
       @apply bg-neutral-darkgrey;
@@ -49,6 +52,7 @@ html, body {
 @media screen and (min-width: 1440px) {
   .index-div {
     width: 50%;
-    height: auto;
+    height: 70%;
   }
+
 }
