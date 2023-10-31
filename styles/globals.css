@@ -41,10 +41,15 @@ html, body {
     height: auto;
     margin-top: 6px;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
+  }
+  .signup-div {
+    width: 50%;
+    height: 80%;
+    border-radius: 35px !important;
   }
   body {
-      @apply bg-neutral-darkgrey;
+      @apply bg-neutral-charcoalgrey;
   }
 
 }
@@ -54,5 +59,14 @@ html, body {
     width: 50%;
     height: 70%;
   }
+  .signup-div {
+    width: 30%;
+    height: 76%;
+    border-radius: 35px !important;
+  }
 
+}
+.desktop-img{
+  height: auto !important;
+  max-height: 700px !important;
 }
