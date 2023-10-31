@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
 @font-face {
   font-family: 'Roboto';
   src: url('/fonts/Roboto-Regular.ttf') format('truetype');
@@ -14,4 +26,15 @@
   src: url('/fonts/Roboto-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
+}
+
+@media screen and (min-width: 690px) {
+  .index-div {
+    width: 50%;
+    height: 70%;
+  }
+  body {
+      @apply bg-neutral-darkgrey;
+  }
+
 }
