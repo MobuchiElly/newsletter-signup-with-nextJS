@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "next/image"
+import Link from "next/link"
 
 const index = () => {
   return (
@@ -15,8 +16,8 @@ const index = () => {
               <p>A confirmation email has been sent to <span className="font-bold">ash@loremcompany.com.</span> Please open it and click the button inside to confirm your subscription</p>
             </div>
           </div>
-          <div className='text-white bg-neutral-darkgrey block w-full h-12 rounded-lg '>
-          <button className='text-center text-16 font-semibold w-full h-full' disabled>Dismiss message</button>
+          <div className='text-white block w-full h-12 rounded-lg '>
+          <Link href='/'><button className='text-center text-16 font-semibold w-full h-full bg-neutral-darkgrey hover:bg-primary-tomato  rounded-xl transition-transform transform hover:shadow-2xl'>Dismiss message</button></Link>
           </div>
       </div>
     </div>
