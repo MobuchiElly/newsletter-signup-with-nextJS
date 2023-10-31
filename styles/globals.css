@@ -28,13 +28,27 @@ html, body {
   font-style: normal;
 }
 
+@media screen and (min-width: 150px) {
+  .index-div {
+    height: auto; 
+  }
+ 
+}
+
 @media screen and (min-width: 690px) {
   .index-div {
     width: 50%;
-    height: 70%;
+    height: auto; 
   }
   body {
       @apply bg-neutral-darkgrey;
   }
 
+}
+
+@media screen and (min-width: 1440px) {
+  .index-div {
+    width: 50%;
+    height: auto;
+  }
 }

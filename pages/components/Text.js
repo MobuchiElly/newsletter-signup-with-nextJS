@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Text = () => {
   return (
-    <div className='px-6 pb-1 pt-12 w-full tablet:w-50 border-green-500 border-1 text-16'>
+    <div className='p-6 desktop:px-6 desktop:pb-1 desktop:pt-12 w-full tablet:w-50 border-green-500 border-1 text-16'>
         <h1 className='font-roboto font-bold text-neutral-darkgrey text-2xl mb-1'>Stay updated!</h1>
         <p>Join 60,000+ product managers receiving montly updates on:</p>
         
