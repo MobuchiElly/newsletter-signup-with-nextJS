@@ -21,7 +21,7 @@ const Input = () => {
               <input type='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='email@company.com'  className="border-neutral-grey w-full border-1 rounded-xl p-4 text-16 mt-2 mb-5 h-12"/>
             </div>
 
-            <div className='text-white bg-neutral-darkgrey block w-full h-12 rounded-lg' m-6><button type='submit' className='text-center w-full h-full'>Subscribe to our monthly newsletter</button></div>
+            <div className='text-white bg-neutral-darkgrey block w-full h-12 rounded-lg'><button type='submit' className='text-center w-full h-full'>Subscribe to our monthly newsletter</button></div>
         </form>
     </div>
   )
